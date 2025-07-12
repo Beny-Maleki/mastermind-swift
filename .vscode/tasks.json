@@ -4,7 +4,7 @@
         {
             "label": "Build for Debugging",
             "type": "shell",
-            "command": "swiftc -g main.swift -o main",
+            "command": "swiftc -g *.swift -o main",
             "group": {
                 "kind": "build",
                 "isDefault": true
